@@ -1,4 +1,4 @@
-package service
+package delivery
 
 import "net/http"
 
@@ -19,6 +19,6 @@ var routes Routes = Routes{
 		"GetAccount",
 		"GET",
 		"/accounts/{accountId}",
-		GetAccountByID,
+		GetByID,
 	},
 }
